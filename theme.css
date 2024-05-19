@@ -2927,6 +2927,7 @@ li[id*=chat-messages-921217923790561360-] article[style="border-color: hsla(20, 
 }
 
 /*Resizable Channel/DM List But It Looks Bad Sometimes*/
+/*
 :root {
 --sidebar-initial-width: 180px;
 } 
@@ -2939,4 +2940,14 @@ max-width: unset;
 }
 .bannerImage-3KhIJ6 {
 width: 100%;
+}
+*/
+
+.sidebar-2K8pFh {
+  width: 10px;
+  transition: width .2s ease-in;
+}
+.sidebar-2K8pFh:hover {
+  width: 240px;
+  transition-timing-function: ease-out;
 }
